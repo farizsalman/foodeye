@@ -1,0 +1,13 @@
+train: C:/Users/salma/OneDrive/Desktop/food_detection/data/train/images
+val: C:/Users/salma/OneDrive/Desktop/food_detection/data/valid/images
+test: C:/Users/salma/OneDrive/Desktop/food_detection/data/test/images
+
+nc: 31
+names: ['Appam', 'Beetroot poriyal', 'Boiled Egg', 'Carrot poriyal', 'Chicken 65', 'Chicken briyani', 'Dosa', 'Idly', 'Kaara chutney', 'Kali', 'Koozh', 'Lemon Rice', 'Mushroom briyani', 'Mutton Briyani', 'Nandu masala', 'Nei satham', 'Paal kolukattai', 'Paneer briyani', 'Panner masala', 'Parupu vada', 'Pidi kolukattai', 'Poorna kolukattai', 'Prawn thokku', 'Puthina Chutney', 'Sambar', 'Sambar satham', 'Satham', 'Thengai chutney', 'Uzhuntha vadai', 'Veg briyani', 'Ven Pongal']
+
+roboflow:
+  workspace: south-indian-food-detection-and-classification
+  project: food-detection-nlusn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/south-indian-food-detection-and-classification/food-detection-nlusn/dataset/3
